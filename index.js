@@ -52,8 +52,8 @@ citySearch.addEventListener("submit", (e) => {
 const kelvinToCelsius = (k) => (k - 273.15).toFixed(1);
 
 const getWeatherData = async () => {
-  const apiKey = "1b2ec997ab50ebfba1c59d0b0b94d3df";  // <-- your new API key here
-  const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
+  const apiKey = ;  // <-- your new API key here
+  const weatherUrl =;
 
   try {
     const res = await fetch(weatherUrl);
